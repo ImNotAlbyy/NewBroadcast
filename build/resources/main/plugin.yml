@@ -1,0 +1,26 @@
+name: NewBroadcast
+version: '1.0.1'
+main: it.imnotalbyy.newbroadcast.NewBroadcast
+api-version: '1.20'
+load: STARTUP
+authors: [ImNotAlbyy]
+website: https://github.com/ImNotAlbyy
+description: Send a message to online players.
+
+commands:
+  broadcast:
+    description: Send a message to online players.
+    usage: /broadcast <message>
+    permission: newbroadcast.use
+  bc:
+    description: Send a message to online players.
+    usage: /broadcast <message>
+    permission: newbroadcast.use
+  newbroadcast:
+    description: Send a message to online players.
+    usage: /broadcast <message>
+    permission: newbroadcast.use
+  newbc:
+    description: Send a message to online players.
+    usage: /broadcast <message>
+    permission: newbroadcast.use
