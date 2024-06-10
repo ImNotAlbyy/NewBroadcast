@@ -18,7 +18,6 @@ public class NewBroadcast extends JavaPlugin implements CommandExecutor {
 
         Bukkit.getServer().getConsoleSender().sendMessage(ChatColor.WHITE + "[NewBroadcast]" + ChatColor.GREEN + " by ImNotAlbyy");
         Bukkit.getServer().getConsoleSender().sendMessage(ChatColor.WHITE + "[NewBroadcast]" + ChatColor.GREEN + " Plugin Enabled!");
-        // Registrare il comando
         this.getCommand("broadcast").setExecutor(this);
         this.getCommand("bc").setExecutor(this);
         this.getCommand("newbroadcast").setExecutor(this);

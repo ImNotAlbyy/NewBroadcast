@@ -14,13 +14,13 @@ commands:
     permission: newbroadcast.use
   bc:
     description: Send a message to online players.
-    usage: /broadcast <message>
+    usage: /bc <message>
     permission: newbroadcast.use
   newbroadcast:
     description: Send a message to online players.
-    usage: /broadcast <message>
+    usage: /newbroadcast <message>
     permission: newbroadcast.use
   newbc:
     description: Send a message to online players.
-    usage: /broadcast <message>
+    usage: /newbc <message>
     permission: newbroadcast.use
